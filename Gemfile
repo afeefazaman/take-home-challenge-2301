@@ -49,6 +49,9 @@ group :development, :test do
   gem "rspec-rails", "~> 6.0"
   gem "factory_bot_rails", "~> 6.2"
   gem "faker", "~> 3.1"
+  gem 'rails-controller-testing'
+  gem 'shoulda-matchers'
+  gem 'pundit-matchers'
 end
 
 group :development do
@@ -61,3 +64,5 @@ group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 end
+
+gem 'active_model_serializers'
